@@ -5,8 +5,8 @@ from sqlalchemy import ForeignKey
 from sqlmodel import Field, Relationship, SQLModel
 
 if TYPE_CHECKING:
-    from aplicacion.modelos.clientes import Cliente
-    from aplicacion.modelos.transacciones import Transacciones
+    from Aplicacion.modelos.clientes import Cliente
+    from Aplicacion.modelos.transacciones import Transacciones
 
 
 class FacturaBase(SQLModel):

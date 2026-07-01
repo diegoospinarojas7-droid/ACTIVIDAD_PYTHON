@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 from sqlmodel import Field, Relationship, SQLModel
 
 if TYPE_CHECKING:
-    from aplicacion.modelos.facturas import Factura
+    from Aplicacion.modelos.facturas import Factura
 
 
 class ClienteBase(SQLModel):
